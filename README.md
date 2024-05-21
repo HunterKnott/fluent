@@ -35,6 +35,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## More details from Hunter
 
+- It's important to know basics of HTML, CSS, and JavaScript before learning React, Next.js, and Supabase.
 - This project uses React, Tailwind CSS, and Next.js. I deployed it on Vercel.
 - I followed the beginner's guide at https://react.dev/ to learn React, they're very easy to follow.
 - I followed the beginner's guide at https://nextjs.org/docs to learn Next.js, it's also easy to follow.
