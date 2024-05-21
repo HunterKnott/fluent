@@ -41,3 +41,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - I followed the beginner's guide at https://nextjs.org/docs to learn Next.js, it's also easy to follow.
 - I was planning on using Supabase for the database and backend. It's pretty simple to use with tutorials. I used this one to understand the basics (https://www.youtube.com/watch?v=dU7GwCOgvNY)
 - For putting sign-in capability on the website, I was planning on following the code here (https://www.youtube.com/watch?v=yDJcdDa6la0).
+
+## Notes on GitHub
+*Make sure you're signed in to your GitHub account on VSCode (Bottom left)*
+*Go to VSCode and navigate to the parent directory you want your project*
+git clone https://...
+git pull origin main (get the latest main version and have it copied over your code)
+*Avoid doing just "git push" because it will go to the main branch immediately*
+git branch branch-name (make a branch apart from main)
+git checkout branch-name (naviage to a specific branch)
+git branch (check your current branch)
+git add .
+git commit -m "Commit to branch"
+git push origin branch-name
+*Do add, commit, push every time you want to add new code
+*Go to GitHub and make a pull request on the latest commit(s) which will be reviewed, branches can be deleted after merge
+*Forking is for open source contributions, so we don't need to worry about it here
