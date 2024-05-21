@@ -39,4 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - I followed the beginner's guide at https://react.dev/ to learn React, they're very easy to follow.
 - I followed the beginner's guide at https://nextjs.org/docs to learn Next.js, it's also easy to follow.
 - I was planning on using Supabase for the database and backend. It's pretty simple to use with tutorials. I used this one to understand the basics (https://www.youtube.com/watch?v=dU7GwCOgvNY)
-- For putting sign-in capability on the website, I was planning on following the code here (https://github.com/SamuelSackey/nextjs-supabase-example). This shows how to do Supabase Google auth.
+- For putting sign-in capability on the website, I was planning on following the code here (https://www.youtube.com/watch?v=yDJcdDa6la0).
