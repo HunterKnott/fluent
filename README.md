@@ -32,3 +32,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## More details from Hunter
+
+-This project uses React, Tailwind CSS, and Next.js. I deployed it on Vercel.
+-I followed the beginner's guide at https://react.dev/ to learn React, they're very easy to follow.
+-I followed the beginner's guide at https://nextjs.org/docs to learn Next.js, it's also easy to follow.
+-I was planning on using Supabase for the database and backend. It's pretty simple to use with tutorials. I used this one to understand the basics (https://www.youtube.com/watch?v=dU7GwCOgvNY)
+-For putting sign-in capability on the website, I was planning on following the code here (https://github.com/SamuelSackey/nextjs-supabase-example). This shows how to do Supabase Google auth.
