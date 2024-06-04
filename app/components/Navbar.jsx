@@ -24,7 +24,7 @@ export default function Navbar({ options }) {
     // );
 
     return (
-        <div className="flex justify-between items-center h-24 w-[100%] max-w-[1920px] px-4 z-3" style={{ boxShadow: "0px 0px 10px 10x rgba(0,0,0,5)", borderBottom: "4px solid", borderBottomColor: "#110310" }}>
+        <div className="flex justify-between items-center h-24 w-[100%] max-w-[1920px] px-4 z-3" style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.5)", borderBottom: "4px solid", borderBottomColor: "#110310" }}>
             <img src={logo} alt="Logo"/>
             {!menuOpen ?
                 <h1 className="w-full text-3xl font-bold" style={indigo}>FLUENT</h1>
