@@ -1,0 +1,4 @@
+.underline-indigo:hover {
+  text-decoration: underline #3B0086;
+  text-decoration-thickness: 2px;
+}

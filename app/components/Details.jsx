@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Details() {
     return (
-        <div className="flex flex-col gap-20 items-center w-full bg-green-400 py-16 px-4">
+        <div className="flex flex-col gap-20 items-center w-full py-16 px-4" style= {{backgroundColor: "#222222", color: "white"}}>
             <div className="flex flex-col gap-4 items-center text-center">
                 <p>Improve Sales Performance</p>
                 <h1 className="text-2xl font-bold">AI-driven sales training for better results</h1>

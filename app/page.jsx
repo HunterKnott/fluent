@@ -11,7 +11,7 @@ const licorice = {color: "#110310"}
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center" style = {{backgroundColor: "#110310"}}>
+    <main className="flex min-h-screen flex-col items-center" style = {{backgroundColor: "white"}}>
       <Navbar />
       <Hero />
       <Details />
