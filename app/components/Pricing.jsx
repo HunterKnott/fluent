@@ -8,16 +8,16 @@ import { FaLinkedin, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 export default function FluentHomepage() {
     return (
         <div className="bg-white text-gray-800">
-            <header className="py-6 px-8 flex justify-between items-center border-b border-gray-300 bg-gradient-to-r from-purple-200 via-green-200 to-blue-200 shadow-md">
+            <header className="py-4 px-4 md:px-8 flex justify-between items-center border-b border-gray-300 bg-gradient-to-r from-purple-200 via-green-200 to-blue-200 shadow-md">
                 <motion.h1 
-                    className="text-xl font-bold text-blue-800"
+                    className="text-lg md:text-xl font-bold text-blue-800"
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
                     FLUENT
                 </motion.h1>
-                <nav className="space-x-4">
+                <nav className="space-x-2 md:space-x-4 text-sm md:text-base">
                     <Link href="/product" className="hover:text-purple-600">PRODUCT</Link> |
                     <Link href="/solutions" className="hover:text-green-600">SOLUTIONS</Link> |
                     <Link href="/customers" className="hover:text-blue-600">CUSTOMERS</Link> |
@@ -29,10 +29,10 @@ export default function FluentHomepage() {
                 </nav>
             </header>
 
-            <main className="py-10 px-8 space-y-20">
+            <main className="py-10 px-4 md:px-8 space-y-20">
                 <section className="text-center mb-10">
                     <motion.h2 
-                        className="text-3xl font-bold text-purple-800 mb-4"
+                        className="text-2xl md:text-3xl font-bold text-purple-800 mb-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.2 }}
@@ -43,12 +43,12 @@ export default function FluentHomepage() {
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
-                        className="mb-6"
+                        className="mb-6 text-sm md:text-base"
                     >
                         Unlock exceptional customer engagement, accurate forecasting, and enhanced team productivity with our all-in-one revenue intelligence platform.
                     </motion.p>
                     <motion.button 
-                        className="mt-4 bg-purple-600 text-white px-6 py-2 rounded-md hover:bg-purple-700"
+                        className="mt-4 bg-purple-600 text-white px-4 md:px-6 py-2 rounded-md hover:bg-purple-700"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.5, delay: 0.6 }}
@@ -59,25 +59,25 @@ export default function FluentHomepage() {
 
                 <section className="text-center mb-10">
                     <motion.h3 
-                        className="text-2xl font-bold text-green-800 mb-4"
+                        className="text-xl md:text-2xl font-bold text-green-800 mb-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.8 }}
                     >
                         OPTIMIZE YOUR REVENUE ENGINE WITH FLUENT
                     </motion.h3>
-                    <div className="flex justify-center space-x-8 mt-4">
+                    <div className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-8 mt-4 text-sm md:text-base">
                         <Link href="/team-productivity" className="hover:text-green-600">Team Productivity</Link>
-                        <span>|</span>
+                        <span className="hidden md:block">|</span>
                         <Link href="/revenue-predictability" className="hover:text-blue-600">Revenue Predictability</Link>
-                        <span>|</span>
+                        <span className="hidden md:block">|</span>
                         <Link href="/pipeline-growth" className="hover:text-purple-600">Pipeline Growth</Link>
                     </div>
                 </section>
 
                 <section className="mb-10">
                     <motion.h3 
-                        className="text-2xl font-bold text-blue-800 text-center mb-4"
+                        className="text-xl md:text-2xl font-bold text-blue-800 text-center mb-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 1.0 }}
@@ -85,7 +85,7 @@ export default function FluentHomepage() {
                         ACHIEVE NEAR-PERFECT FORECAST ACCURACY
                     </motion.h3>
                     <motion.p 
-                        className="text-center mt-2"
+                        className="text-center mt-2 text-sm md:text-base"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 1.2 }}
@@ -104,7 +104,7 @@ export default function FluentHomepage() {
 
                 <section className="mb-10">
                     <motion.h3 
-                        className="text-2xl font-bold text-purple-800 text-center mb-4"
+                        className="text-xl md:text-2xl font-bold text-purple-800 text-center mb-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 1.6 }}
@@ -123,7 +123,7 @@ export default function FluentHomepage() {
 
                 <section className="text-center my-10">
                     <motion.h3 
-                        className="text-xl font-bold text-green-800 mb-4"
+                        className="text-lg md:text-xl font-bold text-green-800 mb-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 2.0 }}
@@ -131,19 +131,19 @@ export default function FluentHomepage() {
                         READY TO TRANSFORM YOUR REVENUE OPERATIONS?
                     </motion.h3>
                     <motion.div 
-                        className="flex justify-center space-x-4 mt-4"
+                        className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-4 mt-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 2.2 }}
                     >
-                        <button className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700">Request Live Demo</button>
-                        <button className="bg-gray-300 text-gray-800 px-6 py-2 rounded-md hover:bg-gray-400">See It In Action</button>
+                        <button className="bg-green-600 text-white px-4 md:px-6 py-2 rounded-md hover:bg-green-700">Request Live Demo</button>
+                        <button className="bg-gray-300 text-gray-800 px-4 md:px-6 py-2 rounded-md hover:bg-gray-400">See It In Action</button>
                     </motion.div>
                 </section>
 
                 <section className="text-center mb-10">
                     <motion.h3 
-                        className="text-xl font-bold text-blue-800 mb-4"
+                        className="text-lg md:text-xl font-bold text-blue-800 mb-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 2.4 }}
@@ -173,7 +173,7 @@ export default function FluentHomepage() {
 
                 <section className="text-center mb-10">
                     <motion.h3 
-                        className="text-xl font-bold text-purple-800 mb-4"
+                        className="text-lg md:text-xl font-bold text-purple-800 mb-4"
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 3.0 }}
@@ -231,7 +231,7 @@ export default function FluentHomepage() {
                 </section>
             </main>
 
-            <footer className="py-4 px-8 text-center border-t border-gray-300 bg-gradient-to-r from-purple-200 via-green-200 to-blue-200 shadow-md">
+            <footer className="py-4 px-4 md:px-8 text-center border-t border-gray-300 bg-gradient-to-r from-purple-200 via-green-200 to-blue-200 shadow-md">
                 <p>2024 © Fluent.io Inc. All rights reserved.</p>
                 <p>For Patent and Trademark Legal Notices, <Link href="#" className="text-blue-700 hover:text-blue-900">click here</Link>.</p>
                 <Link href="/terms" className="text-blue-700 hover:text-blue-900">Terms & Conditions</Link>
