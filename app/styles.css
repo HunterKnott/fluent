@@ -2,3 +2,26 @@
   text-decoration: underline #3B0086;
   text-decoration-thickness: 2px;
 }
+
+.hero {
+  color: white;
+  background-image: url("../public/Images/IMG_1451.PNG");
+  margin-top: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-attachment: scroll; /* Set this to scroll */
+}
+
+.text-container {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.hero {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow to make text stand out */
+}

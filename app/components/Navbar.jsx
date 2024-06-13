@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 // import PageLink from './PageLink';
 import '../styles.css';
-import logo from '../../public/Images/logo.png'; // Proper import
 
 export default function Navbar({ options }) {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +24,7 @@ export default function Navbar({ options }) {
 
     return (
         <div className="flex justify-between items-center h-24 w-[100%] max-w-[1920px] px-4 z-3" style={{ boxShadow: "0px 0px 5px 1px rgba(0,0,0,0.5)", borderBottom: "4px solid", borderBottomColor: "#110310" }}>
-            <img src={logo} alt="Logo"/>
+            <img className="p-4 mw-100" src="/Images/logo.ico" alt="Logo" style={{ width: '100px', height: '100px', marginRight: '20px' }} />
             {!menuOpen ?
                 <h1 className="w-full text-3xl font-bold" style={indigo}>FLUENT</h1>
                 : <h1></h1>
