@@ -7,8 +7,9 @@ import { FaLinkedin, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 export default function FluentHomepage() {
     return (
-        <div className="bg-white text-gray-800">
+        <div className="bg-white text-gray-800" style= {{width: "100%"}}>
             <header className="py-4 px-4 md:px-8 flex justify-between items-center border-b border-gray-300 bg-gradient-to-r from-purple-200 via-green-200 to-blue-200 shadow-md">
+                <img src= "/Images/logo.ico" style={{ width: "50px", height: "50px",marginLeft: "250px", borderRadius: "50%"}}/>
                 <motion.h1 
                     className="text-lg md:text-xl font-bold text-blue-800"
                     initial={{ opacity: 0, y: -50 }}
